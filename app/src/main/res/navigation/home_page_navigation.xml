@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_page_navigation"
+    app:startDestination="@id/homePageFragment">
+
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="com.vons.mvvm.frag.HomePageFragment"
+        android:label="@string/homePage"
+        tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_homePageFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/homePageFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/projectFragment"
+        android:name="com.vons.mvvm.frag.ProjectFragment"
+        android:label="@string/project"
+        tools:layout="@layout/fragment_project" >
+        <action
+            android:id="@+id/action_projectFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment"
+            app:popUpTo="@id/projectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/squareFragment"
+        android:name="com.vons.mvvm.frag.SquareFragment"
+        android:label="@string/square"
+        tools:layout="@layout/fragment_square" />
+    <fragment
+        android:id="@+id/officialAccountFragment"
+        android:name="com.vons.mvvm.frag.OfficialAccountFragment"
+        android:label="@string/officialAccount"
+        tools:layout="@layout/fragment_official_account" >
+        <action
+            android:id="@+id/action_officialAccountFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment"
+            app:popUpTo="@id/officialAccountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mineFragment"
+        android:name="com.vons.mvvm.frag.MineFragment"
+        android:label="@string/mine"
+        tools:layout="@layout/fragment_mine" >
+        <action
+            android:id="@+id/action_mineFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/mineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.vons.mvvm.frag.WebViewFragment"
+        android:label="WebViewFragment">
+        <argument
+            android:name="url"
+            app:argType="string" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.vons.mvvm.frag.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+</navigation>

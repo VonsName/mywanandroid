@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="menuColor" format="color" type="color">@color/deep_red</item>
+    <attr name="menuColor" format="color" />
+</resources>

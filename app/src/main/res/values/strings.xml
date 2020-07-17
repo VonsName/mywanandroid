@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">晚安桌桌</string>
+    <string name="homePage">首页</string>
+    <string name="project">项目</string>
+    <string name="square">广场</string>
+    <string name="officialAccount">公众号</string>
+    <string name="mine">我的</string>
+    <string name="title">置顶</string>
+    <string name="time">刚刚</string>
+    <string name="articleList">文章列表</string>
+    <string name="imgDes">img</string>
+    <string name="category">完整项目</string>
+    <string name="system">体系</string>
+    <string name="navigation">导航</string>
+    <string name="login">请先登录</string>
+    <string name="id">id:---</string>
+    <string name="footPrint">足迹</string>
+    <string name="rank">排名</string>
+    <string name="zero">0</string>
+    <string name="myScore">我的积分</string>
+    <string name="currentScore">当前积分: </string>
+    <string name="myCollect">我的收藏</string>
+    <string name="myArticle">我的文章</string>
+    <string name="webSite">网站</string>
+    <string name="joy">轻松一下</string>
+    <string name="setting">设置</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录或注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="welcome">"欢迎!"</string>
+    <string name="invalid_username">用户名格式不正确</string>
+    <string name="invalid_password">用户名或者密码错误</string>
+    <string name="login_failed">"登录失败"</string>
+    <string name="loading">加载中…</string>
+    <string name="loadComplete">全部加载完毕</string>
+    <string name="tips">提示</string>
+    <string name="launch">启动</string>
+</resources>

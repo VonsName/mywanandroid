@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homePageFragment"
+        android:icon="@drawable/home"
+        android:title="@string/homePage" />
+    <item
+        android:id="@+id/projectFragment"
+        android:icon="@drawable/project"
+        android:title="@string/project" />
+    <item
+        android:id="@+id/squareFragment"
+        android:icon="@drawable/square"
+        android:title="@string/square" />
+    <item
+        android:id="@+id/officialAccountFragment"
+        android:icon="@drawable/webchat"
+        android:title="@string/officialAccount" />
+    <item
+        android:id="@+id/mineFragment"
+        android:icon="@drawable/mine"
+        android:title="@string/mine" />
+</menu>
